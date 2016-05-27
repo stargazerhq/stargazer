@@ -1,0 +1,18 @@
+language: php
+php:
+  - '5.4'
+
+install:
+- composer install
+
+script:
+- phpunit
+
+deploy:
+  provider: openshift
+  user: "anton.vorobyev@outlook.com"
+  password: "ahzyjaWHXA86UXA6VOXN" # can be encrypted
+  domain: "studiofact"
+
+after_deploy:
+- phpunit
