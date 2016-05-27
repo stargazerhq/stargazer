@@ -1,0 +1,19 @@
+{
+  "name": "studiofact/stargazer",
+  "authors": [
+    {
+      "name": "Anton Vorobyev",
+      "email": "anton@vorobyev.co"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "require-dev": {
+    "behat/behat": "^3.0",
+    "behat/mink": "^1.7",
+    "behat/mink-extension": "^2.2",
+    "behat/mink-selenium2-driver": "^1.3",
+    "phpunit/phpunit": "^5.3",
+    "phpunit/phpunit-selenium": "^3.0"
+  }
+}
